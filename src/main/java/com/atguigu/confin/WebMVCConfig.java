@@ -17,6 +17,7 @@ public class WebMVCConfig implements WebMvcConfigurer {
 //    master commit
 //    hot-fix commit
 //    hot-fix commit3
+//    pull Test 22222222
     @Override
     public void addInterceptors(InterceptorRegistry registry){
         registry.addInterceptor(loginProtectedInterceptor).addPathPatterns("/headline/**");
