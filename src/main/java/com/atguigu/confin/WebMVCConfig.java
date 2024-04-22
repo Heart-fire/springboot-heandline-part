@@ -14,6 +14,7 @@ public class WebMVCConfig implements WebMvcConfigurer {
 //------------------------------蓝色被追踪过，但是又修改了---------------------------------
 //------------------------------蓝色被追踪过，但是又修改了---------------------------------
 //    third commit
+//    hot-fix commit
     @Override
     public void addInterceptors(InterceptorRegistry registry){
         registry.addInterceptor(loginProtectedInterceptor).addPathPatterns("/headline/**");
