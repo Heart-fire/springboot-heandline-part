@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class WebMVCConfig implements WebMvcConfigurer {
     @Autowired
     private LoginProtectedInterceptor loginProtectedInterceptor;
-
+//------------------------------蓝色被追踪过，但是又修改了-------------------------------------------------------------
     @Override
     public void addInterceptors(InterceptorRegistry registry){
         registry.addInterceptor(loginProtectedInterceptor).addPathPatterns("/headline/**");
